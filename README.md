@@ -2,7 +2,7 @@
 * Make
 
 ## Compilation
-The code can be compiled with the provided makefile using the standard make command.
+The code can be compiled with the provided makefile using the standard `make` command.
 
 If compiling the code manually, or integrating into a larger program, include the following flags: 
 ```
