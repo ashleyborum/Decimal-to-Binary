@@ -19,8 +19,7 @@ output simliar to
   | Base 10 | Base 2 |
   | :-------|:-------|
   | 0.5     | 0.1    |
-  | 0.25    | 0.01.  |
-  | 0.75    | 0.11.  |
+  | 0.25    | 0.01   |
+  | 0.75    | 0.11   |
 ```
-will  be displayed. Note that the precision estimates will vary by
-architecture/system.
+will  be displayed. Note that the form will vary by architecture/system.
