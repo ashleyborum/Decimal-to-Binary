@@ -10,3 +10,7 @@ FLAGS=-std=c++11 -fsanitize=address,leak,undefined -Wall -Wextra -fuse-ld=gold
 ```
 Note that flag `-fuse-ld=gold` is only required on certain Ubuntu systems due to a know bug with g++ 5.x.
 ## Sample Execution and Output
+All input is handled through command line arguments. Sample input:
+```
+./convert_dec_to_binary.cpp 0.5 0.25 0.75
+```
