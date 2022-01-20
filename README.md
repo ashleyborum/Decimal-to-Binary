@@ -1,6 +1,9 @@
 # Decimal to Binary Mantissa
 Decimal to Binary Mantissa is a conversion tool for numerical approximation problems, designed for demonstrating computational methods. It deals with the inference aspect of machine learning, taking models after training and managing their lifetimes.
 
+> The best way to crack a complex problem is to "break it down into component parts, learn each of
+the parts and learn how the parts go together." -Graham, R. L.
+
 ## Requirements
 * Make
 
