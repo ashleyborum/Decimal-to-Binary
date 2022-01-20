@@ -8,4 +8,5 @@ If compiling the code manually, or integrating into a larger program, include th
 ```
 FLAGS=-std=c++11 -fsanitize=address,leak,undefined -Wall -Wextra -fuse-ld=gold
 ```
+Note that flag `-fuse-ld=gold` is only required on certain Ubuntu systems due to a know bug with g++ 5.x.
 ## Sample Execution and Output
