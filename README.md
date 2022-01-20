@@ -16,9 +16,11 @@ All input is handled through command line arguments. Sample input:
 ```
 output simliar to
 ```
-   0 secs | 1.19209e-07
-   1 secs | 2.22045e-16
-  17 secs | 1.92593e-34
+  | Base 10 | Base 2 |
+  | :-------|:-------|
+  | 0.5     | 0.1    |
+  | 0.25    | 0.01.  |
+  | 0.75    | 0.11.  |
 ```
 will  be displayed. Note that the precision estimates will vary by
 architecture/system.
