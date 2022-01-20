@@ -7,4 +7,4 @@ If compiling the code manually, or integrating into a larger program, include th
 
 -std=c++11 -fsanitize=address,leak,undefined -Wall -Wextra -fuse-ld=gold
 
-#Sample Execution & Output
+# Sample Execution and Output
