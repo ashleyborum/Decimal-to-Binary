@@ -1,4 +1,4 @@
-# Convert Decimal Mantissa to Binary Mantissa
+# Decimal to Binary Mantissa
 ## Requirements
 * Make
 
