@@ -1,8 +1,7 @@
 #include <cmath>
-#include <ctime>
 #include <iostream>
 #include <iomanip>
-#include <functional>
+#include <string>
 
 using namespace std;
 
@@ -19,26 +18,29 @@ const double MAX_DIGITS = 8;
 
 //------------------------------------------------------------------------------------------------------------------------------------------------------------
 void convertBaseTenToBaseTwo (double baseTenNumber) {
-    int counter = 1;
+    int digits = 1;
+    string baseTwoString = "";
+    string mantissaDigit = "";
 
-    while (baseTenNumber != 0 && counter < MAX_DIGITS) 
+    while (baseTenNumber != 0 && digits < MAX_DIGITS) 
     {
         baseTenNumber *= 2;
-        cout << (int) baseTenNumber;
+        mantissaDigit = to_string((abs((int) baseTenNumber)));
+        baseTwoString += mantissaDigit; 
         baseTenNumber -= (int) baseTenNumber;
-        counter++;
+        digits++;
     }
-    cout << ceil(baseTenNumber);
+    cout << baseTwoString;
 }
 
 //------------------------------------------------------------------------------------------------------------------------------------------------------------
 int main(int argc, char** argv)
 {
-    cout << "| Base 10 | Base 2 |" << "\n";
-    cout << "| :-------| :------|" << "\n";
+    cout << "| Base 10 | Base 2    |" << "\n";
+    cout << "| :-------| :---------|" << "\n";
 
     for (int i = 1; i < argc; i++) {
-        cout << "| " << setw(8) << left << argv[i] << "| " << "0.";
+        cout << "| " << setw(8) << left << argv[i] << "| " << "0." << setw(8) << left;
      
         double number = atof(argv[i]);
         convertBaseTenToBaseTwo (number);
