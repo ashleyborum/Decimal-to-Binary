@@ -5,6 +5,7 @@ Decimal to Binary Mantissa is a conversion tool for numerical approximation prob
 the parts and learn how the parts go together. -Graham, R. L.
 
 ## Requirements
+* g++ v5.4 or newer
 * Make
 
 ## Compilation
