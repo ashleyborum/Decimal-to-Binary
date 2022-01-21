@@ -21,7 +21,7 @@ The program receives a real number in decimal (base 10) and converts it into bin
 ```
 ./convert_dec_to_binary.cpp 0.5 0.25 0.75
 ```
-output simliar to
+output *simliar* to
 ```
   | Base 10 | Base 2 |
   | :-------|:-------|
