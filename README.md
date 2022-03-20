@@ -32,5 +32,6 @@ output *simliar* to
 will  be displayed. Note that the form will vary by architecture/system.
 
 ```
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Zingam/Markdown-Document-UML-Use-Test/master/UML/Instance.puml)
 
 ```
