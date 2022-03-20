@@ -31,8 +31,7 @@ output *simliar* to
 ```
 will  be displayed. Note that the form will vary by architecture/system.
 
-```
-  mermaid
+```mermaid
 journey
 	title Me studying for exams
 	section Exam is announced
