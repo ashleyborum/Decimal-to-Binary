@@ -32,17 +32,6 @@ output *simliar* to
 will  be displayed. Note that the form will vary by architecture/system.
 
 ```mermaid
-journey
-	title Me studying for exams
-	section Exam is announced
-		I start studying: 1: Me
-		Make notes: 2: Me
-		Ask friend for help: 3: Me, Friend
-		We study togther: 5: Me, Friend
-	section Exam Day
-		Syllabys is incomplete: 2: Me
-		Give exam: 1: Me, Friend
-	section Result Declared
-		I passed the exam with destinction!: 5: Me
-		Friend barely gets passing marks: 2: Friend
+![Hello World](/svg/SoWkIImgAStDKV18pSd9LmZFByf9uIhEpimhI2nAp5K8BgdCILKeBYdAJ0QfGfP9BInDpKjEzKqjBavCJtNCoKpFoqtDAr581XAfHLoE2hfs2auALb23oy46EohOw484CxaSKlDIW4O20000 "Hello World")
+
 ```
