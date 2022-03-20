@@ -31,7 +31,6 @@ output *simliar* to
 ```
 will  be displayed. Note that the form will vary by architecture/system.
 
-```mermaid
-![Hello World](/svg/SoWkIImgAStDKV18pSd9LmZFByf9uIhEpimhI2nAp5K8BgdCILKeBYdAJ0QfGfP9BInDpKjEzKqjBavCJtNCoKpFoqtDAr581XAfHLoE2hfs2auALb23oy46EohOw484CxaSKlDIW4O20000 "Hello World")
+```
 
 ```
